@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(107,182,32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    font-family: sans-serif;
+    border: 2px solid white;
+    padding: 20px;
+    color: white;
+}
