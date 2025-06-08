@@ -10,6 +10,13 @@ import InlineStyle from './components/InlineStyle.jsx';
 import CascadingStyle from './components/CascadingStyle.jsx';
 import IconComponent from './components/IconComponent.jsx';
 import States from './components/States.jsx';
+import Portals from './components/Portals.jsx';
+import Hooks from './components/Hooks.jsx';
+import ContextAPI from './components/ContextAPI.jsx';
+import Reducers from './components/Reducers.jsx';
+import Ref from './components/Ref.jsx';
+import CustomHooks from './components/CustomHooks.jsx';
+import UniqueID from './components/UniqueID.jsx';
 
 const App = () => {
     return (
@@ -26,8 +33,15 @@ const App = () => {
             <Greeting timeOfDay="evening"/>
             <CascadingStyle />
             <IconComponent />
-            <InlineStyle /> */}
+            <InlineStyle /> 
             <States />
+            <Portals /> 
+            <Hooks />
+            <ContextAPI />
+            <Reducers />
+            <Ref />
+            <CustomHooks />*/}
+            <UniqueID />
         </div>
     )
 }
